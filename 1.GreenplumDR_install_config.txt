@@ -133,7 +133,8 @@ GP Primary                  Repository                      GP Recovery
       if [ ! -z $MINIO_PID ] ; then
            echo "$MINIO_PID" > minio.pid
       fi
-                 [gpadmin@minio minio]$ cat stop.sh
+      
+      [gpadmin@minio minio]$ cat stop.sh
       #!/bin/bash
       
       MINIO_PID=`cat minio.pid 2> /dev/null`
@@ -144,7 +145,7 @@ GP Primary                  Repository                      GP Recovery
       else
           echo "No MINIO processes are currently active."
       fi
-          [gpadmin@minio minio]$ chmod +x start.sh stop.sh
+      [gpadmin@minio minio]$ chmod +x start.sh stop.sh
           
       ##### minio 시작 
       [gpadmin@minio minio]$ ./start.sh
@@ -167,6 +168,8 @@ GP Primary                  Repository                      GP Recovery
       WebUI: http://172.16.65.3:9001 http://127.0.0.1:9001
       ...
 
+    3) minio에서 bucket 생성
+      -  http://172.16.65.3:9001 접속 후 gpdr 버킷 생성
 
 6. Greenplum DR 설치 및 설정 요약
 
