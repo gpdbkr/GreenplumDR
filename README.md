@@ -32,3 +32,14 @@ GP Primary                  Repository                      GP Recovery
 - Greenplum 7.3 Primary Cluster (싱글머신)
 - Greenplum 7.3 Recovery Cluster (싱글머신)
 - minio (싱글머신)
+- 폴더 및 파일 설명
+```
+./gpconfigs                               : gpdr을 위한 설정 파일
+./gpdr                                    : gpdr 테스트를 위한 스크립트
+./minio                                   : minio background로 수행하기 위한 스크립트
+1.GreenplumDR_install_config.txt          : Greenplum DR 설치 및 설정 방법
+2.GreenplumDR_gpdr_test_script.txt        : Greenplum DR 테스트를 위한 스크립트 
+3.GreenplumDR_gpdr_test_full_recovery.txt : Greenplum DR Full Recovery 테스트 및 output
+4.GreenplumDR_gpdr_test_incr_recovery.txt : Greenplum DR Incremental Recovery 테스트 및 output
+5.GreenplumDR_gpdr_test_cont_recovery.txt : Greenplum DR Continuous Recovery 테스트 및 output
+```
