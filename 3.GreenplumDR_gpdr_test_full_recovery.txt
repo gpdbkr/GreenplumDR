@@ -1,6 +1,5 @@
 Greenplum Disaster Recovery - Full Recovery 테스트 및 output
 
-
 1. Greenplum DR  Full Recovery 테스트
   1) 목적 
      - Full 백업 후 복구: 1회성 복구
