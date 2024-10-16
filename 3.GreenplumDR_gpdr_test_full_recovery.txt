@@ -2,11 +2,17 @@ Greenplum Disaster Recovery - Full Recovery 테스트 및 output
 
 
 1. Greenplum DR  Full Recovery 테스트
-  1) 시나리오 
+  1) 목적 
+     - Full 백업 후 복구: 1회성 복구
+     - Incremental 복구 또는 Continuous 복구를 위하여 반드시 필요한 사전 복구 작업
+  2) 제약 사항
+     - Disaster Recovery는 조회 불가(Primary Cluster가 다운되었을 때 Recovery 목적)
+     - Recovery cluster에서 조회/변경을 위해서는 promote를 수행 해야 함.
+  3) 시나리오 
      - init : gpdr 구성 초기화 단계(첫 테스트일 경우 할 필요 없으나, 반복 테스트시에는 반드시 필요)
      - config: gpdr 구성 설정 - 초기화 이후에는 반드시 필요 
      - Full recovery test: 실제 테스트 단계
-  2) 수행 위치 및 실행 계획
+  4) 수행 위치 및 실행 계획
 
 DR Method  |    Primary Cluster                | Recovery Cluster     
 --------------------------------------------------------------------------------------------------------------
