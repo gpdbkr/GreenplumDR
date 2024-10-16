@@ -169,7 +169,7 @@ GP Primary                  Repository                      GP Recovery
       ...
 
     3) minio에서 bucket 생성
-      -  http://172.16.65.3:9001 접속 후 gpdr 버킷 생성
+      -  http://172.16.65.3:9001 접속 후 root에 gpdr 버킷 생성
 
 6. Greenplum DR 설치 및 설정 요약
 
