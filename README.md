@@ -4,6 +4,7 @@
 - 스냅샷을 이용할 경우 PITR(Point-in-time-recovery) 수행 가능. 
 - 링크: https://docs.vmware.com/en/VMware-Greenplum-Disaster-Recovery/index.html
 - Greenplum7.3+에서는 DR 클러스터에서 조회기능을 제공. (Greenplum 6에서는 미제공)
+- Greenplum DR 데모: https://www.youtube.com/watch?v=blD7gGcSCMk
 
 ### 1. GPDR 아키텍처
 ```
